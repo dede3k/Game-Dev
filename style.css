@@ -39,7 +39,7 @@ header{
 }
 header nav{
     float: right;
-    width: 50%;
+    width: 60%;
 }
 header nav ul{
     list-style: none;
@@ -66,6 +66,12 @@ header nav ul li.btn a{
 }
 header nav ul li.btn a:hover{
      background: #0f5bc3;
+}
+header nav ul a img{
+    width: 45px;
+    height: auto;
+    position: relative;
+    bottom: 12px;
 }
 
 /*Hero*/
@@ -995,123 +1001,127 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     margin-bottom: 145px;
     border-radius: 10px;
     margin-left: 32px;
-  }
-  .board .blocks .block-right .board-pink h6{
+}
+.board .blocks .block-right .board-pink h6{
     background: #c114be;
-  }
-  .board .blocks .block-right .board-orange h6{
+}
+.board .blocks .block-right .board-orange h6{
     background: #ff7614;
-  }
-  .board .blocks .block-right .board-blue h6{
+}
+.board .blocks .block-right .board-blue h6{
     background: #1489ff;
-  }
-  .board .blocks .block-right .board-pink p, .board .blocks .block-right .board-orange p, .board .blocks .block-right .board-blue p{
+}
+.board .blocks .block-right .board-pink p, .board .blocks .block-right .board-orange p, .board .blocks .block-right .board-blue p{
     position: relative;
     top: 40px;
-  }
-  .board .blocks .block-right h3{
+}
+.board .blocks .block-right h3{
     position: relative;
     font-size: 23px;
     width: 450px;
     bottom: 117px;
     left: 232px;
     line-height: 165%;
-  }
+}
 
-  /*Follow*/
-  .follow{
+/*Follow*/
+.follow{
     margin-bottom: 150px;
-  }
-  .follow .blocks{
+}
+.follow .blocks{
     display: flex;
     justify-content: space-between;
-  }
-  .follow .blocks .block-1{
+}
+.follow .blocks .block-1{
     width: 300px;
-  }
-  .follow .blocks .block-1 p{
+}
+.follow .blocks .block-1 p{
     margin-bottom: 30px;
-  }
-  .follow .blocks .block-1 .f-img{
+}
+.follow .blocks .block-1 .f-img{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-  }
-  .follow .blocks .block-1 .f-img img{
+}
+.follow .blocks .block-1 .f-img img{
     width: 34px;
     height: auto;
-  }
-  .follow .blocks hr{
+}
+.follow .blocks hr{
     width: 1px;
     height: 100px;
     background-color: #ffffff;
     border: none;
-    margin: 0 auto;" />
-  display: flex;
-    align-items: center;
-  }
-  .follow .blocks .block-2 {
+    margin: 0 auto;
+}
+.follow .blocks .block-2 {
     display: flex;
     align-items: center;
     gap: 30px;
-  }
-  .follow .blocks .block-2 p{
+}
+.follow .blocks .block-2 p{
     font-size: 20px;
     font-weight: 300;
-  }
-  .follow .blocks .block-3 {
+}
+.follow .blocks .block-3 {
     display: flex;
     align-items: center;
     gap: 30px;
-  }
-  .follow .blocks .block-3 p{
+}
+.follow .blocks .block-3 p{
     font-size: 20px;
     font-weight: 300;
-  }
-  .follow .blocks .block-3 img{
+}
+.follow .blocks .block-3 img{
     width: 35px;
     height: auto;
-  }
+}
 
-  /*Feedback*/
-  .feedback{
+/*Feedback*/
+.feedback, .register{
     background: #10151b;
     margin-bottom: 180px;
-  }
-  .feedback .container{
+}
+
+.feedback .container, .register .container{
     padding-bottom: 120px;
-  }
-  .feedback .container h2{
+}
+
+.feedback .container h2 {
     text-align: center;
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 20px;
-    padding-top: 80px
-  }
-  .feedback .container p{
+    padding-top: 80px;
+}
+
+.feedback .container p {
     text-align: center;
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 100px;
-  }
-  .feedback .container .fields .field-p{
+}
+
+.feedback .container .fields .field-p {
     display: flex;
     justify-content: center;
     gap: 35px;
-  }
+}
 
-  .feedback .container .fields .field-p .field-1{
+.feedback .container .fields .field-p .field-1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-  }
-  .feedback .container .fields .field-p .field-1 label{
+}
+
+.feedback .container .fields .field-p .field-1 label {
     margin-bottom: 10px;
     color: #6a6a6a;
     font-size: 14px;
     font-weight: 500;
-  }
-  .feedback .container .fields .field-p .field-1 input{
+}
+
+.feedback .container .fields .field-p .field-1 input {
     width: 315px;
     height: 56px;
     border-radius: 10px;
@@ -1120,20 +1130,23 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     background: #24282c;
     color: white;
     padding-left: 7px;
-  }
+}
 
-  .feedback .container .fields .field-p .field-2{
+
+  .feedback .container .fields .field-p .field-2 {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-  }
-  .feedback .container .fields .field-p .field-2 label{
+}
+
+.feedback .container .fields .field-p .field-2 label {
     margin-bottom: 10px;
     color: #6a6a6a;
     font-size: 14px;
     font-weight: 500;
-  }
-  .feedback .container .fields .field-p .field-2 input {
+}
+
+.feedback .container .fields .field-p .field-2 input {
     width: 315px;
     height: 56px;
     border-radius: 10px;
@@ -1142,25 +1155,28 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     background: #24282c;
     color: white;
     padding-left: 7px;
-  }
+}
 
-  .feedback .container .fields .field-p0{
+.feedback .container .fields .field-p0 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .feedback .container .fields .field-p0 .field-3{
+}
+
+.feedback .container .fields .field-p0 .field-3 {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-  }
-  .feedback .container .fields .field-p0 .field-3 label{
+}
+
+.feedback .container .fields .field-p0 .field-3 label {
     margin-bottom: 10px;
     color: #6a6a6a;
     font-size: 14px;
     font-weight: 500;
-  }
-  .feedback .container .fields .field-p0 .field-3 input{
+}
+
+.feedback .container .fields .field-p0 .field-3 input {
     width: 664px;
     height: 56px;
     border-radius: 10px;
@@ -1169,25 +1185,29 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     background: #24282c;
     color: white;
     padding-left: 7px;
-  }
+}
 
-  .feedback .container .fields .field-p1{
+
+.feedback .container .fields .field-p1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .feedback .container .fields .field-p1 .field-4{
+}
+
+.feedback .container .fields .field-p1 .field-4 {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-  }
-  .feedback .container .fields .field-p1 .field-4 label{
+}
+
+.feedback .container .fields .field-p1 .field-4 label {
     margin-bottom: 10px;
     color: #6a6a6a;
     font-size: 14px;
     font-weight: 500;
-  }
-  .feedback .container .fields .field-p1 .field-4 input{
+}
+
+.feedback .container .fields .field-p1 .field-4 input {
     width: 664px;
     height: 232px;
     border-radius: 10px;
@@ -1198,17 +1218,19 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     padding-left: 7px;
     vertical-align: top;
     line-height: 1.5;
-  }
+}
 
-  .feedback .container{
+.feedback .container {
     position: relative;
-  }
-  .feedback .container .cs-btn{
+}
+
+.feedback .container .cs-btn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  .feedback .container .cs-btn .btn{
+}
+
+.feedback .container .cs-btn .btn {
     background: #1489ff;
     width: 170px;
     height: 57px;
@@ -1221,16 +1243,268 @@ footer .blocks .footer-img .img0, .img1, .img2, .img3{
     position: absolute;
     left: 866px;
     transition: all 500ms ease;
-  }
-  .feedback .container .cs-btn .btn:hover{
+}
+
+.feedback .container .cs-btn .btn:hover {
     background: #0f5bc3;
     cursor: pointer;
     transform: scale(1.1);
-  }
+}
+
+
+/*Sign*/
+.sign{
+  justify-content: center;
+}
+.sign .sign-bg{
+  width: 500px;
+  height: 600px;
+  background: #10151b;
+  border-radius: 10px;
+  margin-top: 98px
+}
+.sign hr{
+  width: 500px;
+  justify-content: center;
+}
+.sign h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.sign .field-1, .sign .field-2{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   position: relative;
+   left: 45px;
+
+}
+.sign .field-1 label, .sign .field-2 label{
+  margin-bottom: 10px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign .field-1 input, .sign .field-2 input{
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  outline: none;
+  background: #24282c;
+  color: white;
+  padding-left: 7px;
+  width: 400px;
+  height: 40px;
+}
+.sign .sign-bg .choose{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  position: relative;
+  top: -20px;
+}
+
+.sign .sign-bg .choose hr{
+  position: relative;
+  top: 8px;
+  background: #6a6a6a;
+  width: 90px;
+  border: 0;
+  height: 1px;
+  opacity: 50%;
+}
+.sign .sign-bg .choose p{
+  font-size: 12px;
+  color: #6a6a6a;
+}
+
+.sign .sign-bg button{
+    text-align: center;
+    background: #1489ff;
+    width: 408px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    align-self: flex-start;
+    font-size: 18px;
+    margin-bottom: 60px;
+    position: relative;
+    left: 45px;
+    margin-top: 20px;
+    transition: all 500ms ease;
+}
+
+.sign .sign-bg button:hover{
+    background: #0f5bc3;
+    cursor: pointer;
+}
+.sign .sign-bg .sign-btn button{
+  background: #24282c;
+}
+.sign-bg .sign-btn button:hover{
+  background: #334152;
+}
+.sign-p p{
+  font-size: 14px;
+  color: #808080;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  margin-bottom: 78px;
+
+}
+.sign-p p:hover{
+  cursor: pointer;
+}
 
 
 
 
 
+/*Register*/
+.sign{
+  display: flex;
+  justify-content:center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.sign .register-bg{
+  width: 500px;
+  height: 685px;
+  background: #10151b;
+  border-radius: 10px;
+  margin-top: 95px
+}
 
+.sign h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.sign .field-1, .sign .field-4{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   position: relative;
+   left: 45px;
+}
 
+.sign .field-2, .sign .field-3{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   position: relative;
+   left: 45px;
+}
+
+.sign .field-1 label, .sign .field-4 label{
+  margin-bottom: 10px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign .field-1 input, .sign .field-4 input{
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  outline: none;
+  background: #24282c;
+  color: white;
+  padding-left: 7px;
+  width: 400px;
+  height: 40px;
+}
+.sign .field-p0{
+  display: flex;
+  gap: 30px;
+}
+
+.sign .field-2 label, .sign .field-3 label{
+  margin-bottom: 10px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign .register-bg .field-2 input, .sign .register-bg .field-3 input{
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  outline: none;
+  background: #24282c;
+  color: white;
+  padding-left: 7px;
+  width: 180px;
+  height: 40px;
+}
+
+.sign-bg0 .choose{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  position: relative;
+  top: -255px;
+}
+
+.sign-bg0 .choose hr{
+  position: relative;
+  top: 8px;
+  background: #6a6a6a;
+  width: 90px;
+  border: 0;
+  height: 1px;
+  opacity: 50%;
+}
+.sign-bg0 .choose p{
+  font-size: 12px;
+  color: #6a6a6a;
+}
+.register-bg button{
+    text-align: center;
+    background: #1489ff;
+    width: 408px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    align-self: flex-start;
+    font-size: 18px;
+    margin-bottom: 60px;
+    position: relative;
+    left: 45px;
+    margin-top: 20px;
+    transition: all 500ms ease;
+}
+.register-bg button:hover{
+    background: #0f5bc3;
+    cursor: pointer;
+}
+.register-bg .register-btn button{
+  background: #24282c;
+  position: relative;
+  left: 748px;
+  bottom: 235px;
+}
+.register-bg .register-btn button:hover{
+  background: #334152;
+}
+.register-p p{
+  font-size: 14px;
+  color: #808080;
+  text-align: center;
+  position: relative;
+  bottom: 220px;
+}
+.register-p p:hover{
+  cursor: pointer;
+}
